@@ -1,0 +1,6 @@
+class Wicket{
+	
+	 Wicket wicket;
+	
+	
+}

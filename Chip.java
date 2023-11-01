@@ -1,0 +1,6 @@
+class Chip{
+	
+	 Chip chip;
+	
+	
+}

@@ -1,0 +1,6 @@
+class Wall{
+	
+	 Wall wall;
+	
+	
+}

@@ -1,0 +1,6 @@
+class Pencil{
+	
+	Pencil pencil;
+	
+	
+}

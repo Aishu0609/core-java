@@ -1,0 +1,6 @@
+class Canteen{
+	
+	 Canteen canteen;
+	
+	
+}

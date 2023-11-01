@@ -1,0 +1,4 @@
+class Cup{
+	
+	 Cup cup;	
+}

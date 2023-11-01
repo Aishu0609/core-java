@@ -1,0 +1,6 @@
+class Copper{
+	
+	 Copper copper;
+	
+	
+}
