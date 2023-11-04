@@ -1,0 +1,175 @@
+1.Java is an Object oriented programming language this is invented by James Gosling in the year of 1995.Java is an platform independent programming language.
+It is used to develop apps like mobile,desktop etc.
+Javac is used to compile the program by using JRE and JDK,JVM.The name itself indicates a javaCompiler where the original code is converted to bytecode.
+
+
+2.JVM:JVM is an Java Virtual Machine it is use to execute the program is an abstract machine. It is called a virtual machine because it doesn't physically exist. It is a specification that provides a runtime environment in which Java bytecode can be executed. It can also run those programs which are written in other languages and compiled to Java bytecode.
+
+JRE:JRE is an Java Runtime Environment. The Java Runtime Environment is a set of software tools which are used for developing Java applications. It is used to provide the runtime environment. It is the implementation of JVM. It physically exists. It contains a set of libraries + other files that JVM uses at runtime.
+
+JDK:JDK is Java Development Kit. The Java Development Kit (JDK) is a software development environment which is used to develop Java applications and applets. It physically exists. It contains JRE + development tools.
+
+3.The difference between Java File and Class file 
+The .java file forms when we save a source code with this extension. 
+The .java file is nothing but the source code itself in Java.
+The .class file forms when compilation takes place.it is the file containing the code we write. 
+The .class  use a simple text editor or any IDE to write a Java program.
+
+4.The list of Java IDE'S are Notpad++,Eclipse,Netbeans,Andriod Studio
+
+5.Variable is a Container which holds the value while java Program is executed variables are allocated with memory and data allocations
+Types of Variables:Local Variable,Instance Variable,Static Variable
+Local variable:A Variable declared inside the body.
+Instance Variable:A variable declared Outside the body.
+Static Variable:A variable declared with the instances of class names.
+Example for Variable:int,float,double,boolean,char,long,String
+
+6.Object oriented program in java where it is plaform independent used to develop apps in desktop,mobile. Java is related to the execution of program mainly done by jdk and jre where jvm is just a machine where the given code is converted to bytecode.The programs or code written by using java it directly does not executes first we have to compile the class and then it converts to jvm as bytecode language. objects in java program are real eorld entity. 
+
+7.only the file gets compile
+
+8.Size and type that can be stored in variable is named as the datatypes this is used to store the variables.
+There are 2 data types Primitive datatype :Size and type
+                       NonPrimitive datatype:Objects in real world entity.
+
+9.Dot operator is used frequency to call a method on an object newString(),ToString().It also Qualify name with namespace and interface
+
+10.List of java Features
+easy to code
+Simple
+Object-Oriented
+Portable
+Platform independent
+Secured
+Robust
+Architecture neutral
+Interpreted
+High Performance
+Multithreaded
+
+11.Array is an object which contains elements of a similar data type. The elements of an array are stored in a contiguous memory location. It is a data structure where we store similar elements. We can store only a fixed set of elements in a Java array.
+Types of Array Single
+               Multiple
+Syntax:String cars("Tiago","Suzuki","Maruthi"){
+       }
+        
+
+Ex: class Array{  
+public static void main(String args[]){  
+int a[]=new int[4]; 
+a[0]=10; 
+a[1]=20;  
+a[2]=70;  
+a[3]=40;     
+for(int i=0;i<a.length;i++) 
+System.out.println(a[i]);  
+}}  
+
+12.Class and objects
+Class:Class is not an real world entity. A class in Java is a set of objects which shares common characteristics/ behavior and common properties/ attributes. It is a user-defined blueprint from which objects are created.
+Object:Object is an real world entity where the programmer can create a random class names.it is based on the static,Behaviour,Identity
+
+Example for class
+class Student {
+    
+    int id;
+    String name;
+ 
+    public static void main(String args[])
+    {
+        Student s1 = new Student();
+        System.out.println(s1.id);
+        System.out.println(s1.name);
+    }
+} 
+
+Example for object
+public class Student {
+    
+    int id;
+    
+    String name;
+ 
+    public static void main(String args[])
+    {
+        
+        Student s1 = old Student();
+	Student s2= new Student();
+    public static getid(String[] args){
+    public static getname(String[] args){
+        System.out.println(s1.id);
+	System.out.println(s1.name);
+    }
+}
+    public static getid(String[] args){
+    public static getname(String[] args){
+        System.out.println(s2.id);
+	System.out.println(s2.name);
+    }
+}
+
+13.10 Keywords
+  Abstract
+  Assert
+  Boolean
+  Byte
+  Break
+  Continue
+  Class
+  Case
+  Double
+  Else
+example for keywords:
+
+14:Constructor: Whose name and the class name is same is named as constructor It is a special type of method which is used to initialize the object.
+Every time an object is created using the new() keyword, at least one constructor is called.
+It calls a default constructor if there is no constructor available in the class. Java compiler provides a default constructor by default.
+Types of Constructor Default 
+                     Parametarized
+example for default constructor
+class Bike1{    
+Bike1()
+{System.out.println("Bike is created");
+}  
+  
+public static void main(String args[]){  
+ 
+Bike1 b=new Bike1();  
+}  
+}
+
+15.The main() method plays a  role in program execution. method is a block of code 
+The main() method is the first method that encounters first during execution. 
+It is an entry point of a program. We cannot modify the syntax of the main() method. 
+Method types are There are mainly three types of methods  1.Built-in 
+                                                          2.User-defined 
+                                                          3.Abstract methods. 
+
+
+this keyword can be used to refer to current class instance variables and invoke the instance methods. it is used to pass a variable number of arguments when the number of parameters is not known during method declaration.
+
+16.class Array{  
+public static void main(String args[]){  
+int a[]=new int[7]; 
+a[0]=12; 
+a[1]=3;  
+a[2]=2;  
+a[3]=44;
+a[4]=6;
+a[5]=7;
+a[6]=6;     
+for(int j=0;j<a.length;j++) 
+System.out.println(a[j]);  
+}
+}  
+
+
+
+
+
+
+
+
+
+
+   
