@@ -1,16 +1,50 @@
 class Laptop{
-	static int cost;
-	static String model;
-	static String color;
-	static double storage;
-	static int rating;
 	
-	static void specInfo(){
-		System.out.println("Laptop Specification");
-		System.out.println("Laptop cost is:"+cost);
-		System.out.println("Laptop model is:"+model);
-		System.out.println("Laptop color is:"+color);
-		System.out.println("Laptop  storage is:"+storage);
-		System.out.println("Laptop rating is:"+rating);
+	Hardware[] hardware;
+	Owner owner;
+	Brand brand;
+	
+	
+	Laptop(){
+		
+		System.out.println("created Laptop using no arg const....");
+	}
+	
+	void setHardware(Hardware[] hardware){
+		this.hardware=hardware;
+	}
+	
+	void setOwner(Owner owner){
+		this.owner=owner;
+	}
+	
+	void setBrand(Brand brand){
+		
+		this.brand=brand;
+	}
+	
+	void show(){
+		
+		System.out.println("Starting show in Laptop");
+		System.out.println("Hardware is "+this.hardware);
+		if(hardware!=null){
+			for(int seq=0;seq<this.hardware.length;seq++){
+				
+				Hardware ref=this.hardware[seq];
+				System.out.println("Hardware is "+this.hardware[seq]+" at the seq "+ref);
+				ref.show();
+			}
+		}
+		
+		System.out.println("owner is "+this.owner);
+		if(owner!=null){
+			owner.show();
+		}
+		System.out.println("brand is "+this.brand);
+		if(brand!=null){
+			brand.show();
+		}
+		
+		System.out.println("Ending show in Laptop");
 	}
 }
